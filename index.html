@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <script src="./js/menu.js"></script>
     <title>Neguin Barber</title>
   </head>
   <body>
@@ -15,16 +16,17 @@
           <div class="logo_nav">
             <img src="./assets/fundo transparent nb.PNG" alt="Logo" />
           </div>
-          <div class="nav__icons">
+          <hr/>
+          <div id="nav" class="nav__icons">
+            <button id="btn-menu" onclick="abrirMenu()">Menu<span id="icon"></span></button>
             <ul>
-              <li><strong>Home</strong><a href="#Home"></a></li>
-              <li><strong>Sobre</strong><a href="#Sobre"></a></li>
-              <li><strong>Horário</strong><a href="#Horario"></a></li>
-              <li><strong>Serviços</strong><a href="#Serviços"></a></li>
-              <li><strong>Contato</strong><a href="#Contato"></a></li>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Sobre">Sobre</a></li>
+              <li><a href="#Horario">Horário</a></li>
+              <li><a href="#Serviços">Serviços</a></li>
+              <li><a href="#Contato">Contato</a></li><br>
             </ul>
           </div>
-          <hr />
         </div>
       </nav>
       <div class="home__content">
