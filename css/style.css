@@ -16,17 +16,21 @@
 
 .logo_nav {
   margin: 10px;
+  margin-top: 0px;
+}
+.logo_nav > img {
+  width: 168px;
 }
 
 .nav__icons > ul {
   display: flex;
   flex-direction: row;
-  margin-right: 40px;
+  margin-right: 23px;
 }
 
 .nav__icons > ul > li {
   padding-top: 30px;
-  padding-left: 30px;
+  padding-left: 20px;
   margin: 25px;
 }
 
