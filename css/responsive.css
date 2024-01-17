@@ -1,4 +1,5 @@
 @media (max-width: 667.98px) {
+
   .nav__content {
     font-size: 24px;
     background-color: #181818;
@@ -9,15 +10,55 @@
     width: 100%;
     color: white;
   }
+  
 
   .logo_nav > img {
     width: 33%;
     
   }
+  .nav__icons{
+    display: block;
+  }
 
-  .nav__icons {
+  #nav.nav__icons ul{
     display: none;
   }
+  #btn-menu {
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    color: #ffffff;
+    background: none;
+    gap: 0.5rem;
+  }
+
+  #icon {
+    border-top: 2px solid;
+    width: 20px;
+    display: block;
+  }
+  #icon::after, #icon::before {
+    display: block;
+    content: '';
+    width: 20px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: currentColor;
+    transition: .3s;
+    position: relative;
+  }
+  .nav__icons.active #icon{
+    border-top-color: transparent;
+  }
+  .nav__icons.active #icon::before{
+    transform: rotate(135deg);
+  }
+  .nav__icons.active #icon::after{
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
 
   .home__content {
     color: #ffffff;
@@ -43,4 +84,17 @@
     margin: 4px;
     color: #ffffff;
   }
+
+  #nav.nav__icons.active ul{
+    display: block;
+    position: relative;
+    margin-left: -125px;  
+    margin-right: 0px;
+    margin-top: -15px;
+    background-color: #181818;
+  }
+  #nav #btn-menu{
+    margin-top: 10px;
+  }
+
 }
