@@ -11,7 +11,7 @@
   }
 
   .logo_nav > img {
-    width: 50%;
+    max-width: 45%;
   }
   .nav__icons {
     display: block;
