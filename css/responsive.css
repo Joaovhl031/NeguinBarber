@@ -1,31 +1,28 @@
-@media (max-width: 667.98px) {
-
+@media (max-width: 532.77px) {
   .nav__content {
     font-size: 24px;
     background-color: #181818;
-    height: 58px;
+    height: 76px;
     border-bottom: solid 1px white;
   }
-  .nav__content > hr{
+  .nav__content > hr {
     width: 100%;
     color: white;
   }
-  
 
   .logo_nav > img {
-    width: 33%;
-    
+    width: 50%;
   }
-  .nav__icons{
+  .nav__icons {
     display: block;
   }
 
-  #nav.nav__icons ul{
+  #nav.nav__icons ul {
     display: none;
   }
   #btn-menu {
     display: flex;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     border: none;
     color: #ffffff;
@@ -35,30 +32,30 @@
 
   #icon {
     border-top: 2px solid;
-    width: 20px;
+    width: 32px;
     display: block;
   }
-  #icon::after, #icon::before {
+  #icon::after,
+  #icon::before {
     display: block;
-    content: '';
-    width: 20px;
-    height: 2px;
-    margin-top: 5px;
+    content: "";
+    width: 32px;
+    height: 4px;
+    margin-top: 10px;
     background-color: currentColor;
-    transition: .3s;
+    transition: 0.3s;
     position: relative;
   }
-  .nav__icons.active #icon{
+  .nav__icons.active #icon {
     border-top-color: transparent;
   }
-  .nav__icons.active #icon::before{
+  .nav__icons.active #icon::before {
     transform: rotate(135deg);
   }
-  .nav__icons.active #icon::after{
+  .nav__icons.active #icon::after {
     transform: rotate(-135deg);
     top: -7px;
   }
-
 
   .home__content {
     color: #ffffff;
@@ -70,31 +67,72 @@
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.418);
     border-radius: 1rem;
-    margin-top: 130px;
-    width: 280px;
+    margin-top: 120px;
+    max-width: 386px;
     text-align: center;
   }
   .home__content > div > h2 {
     color: #ffffff;
-    font-size: 28px;
+    font-size: 36px;
     padding: 20px;
   }
   .home__content > div > p {
-    font-size: 12px;
+    font-size: 24px;
     margin: 4px;
     color: #ffffff;
   }
 
-  #nav.nav__icons.active ul{
+  #nav.nav__icons.active ul {
     display: block;
     position: relative;
-    margin-left: -125px;  
+    margin-left: -125px;
     margin-right: 0px;
     margin-top: -15px;
     background-color: #181818;
   }
-  #nav #btn-menu{
+  #nav #btn-menu {
     margin-top: 10px;
+  }
+
+  
+  section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #6d6a6a;
+    max-width: 424px;
+    text-align: justify;
+  }
+  .content {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .logo__about img span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description__about {
+    text-align: center;
+    margin: 25px;
+  }
+  .logo {
+    margin: auto;
+
   }
 
 }
