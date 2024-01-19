@@ -65,20 +65,20 @@
 }
 
 .about__content {
-  background-image: url(../assets/fund_img.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  margin: 0;
-  background-attachment: fixed;
-  justify-content: center;
-  align-items: center;
+  background: rgb(22, 21, 21);
+  background: linear-gradient(
+    145deg,
+    rgba(22, 21, 21, 1) 47%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(255, 0, 0, 0.8463760504201681) 100%
+  );
 }
 section {
   justify-content: center;
   align-items: center;
   color: #6d6a6a;
-  max-width: 524px;
+  width: 434px;
   text-align: justify;
   margin: auto;
 }
