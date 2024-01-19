@@ -125,3 +125,15 @@ section {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+footer{
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #000000;
+  color: #FFF;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; 
+}
