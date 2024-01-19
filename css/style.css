@@ -95,7 +95,6 @@ section {
   align-items: center;
   font-size: 63px;
   color: #ffffff;
-  margin-bottom: 30px;
 }
 .logo__about img span {
   display: flex;
@@ -105,24 +104,12 @@ section {
 }
 .description__about {
   text-align: center;
-  margin: 25px;
+  
 }
 .logo {
-  margin-left: 55px;
-  margin-top: 20px;
+  margin: -60px;
 }
-.animate__description {
-  font-size: 22vw;
-  animation-duration: 112s;
-  color: rgba(255, 255, 255, 0.1);
-  line-height: 1.2;
-  display: inline-block;
-  white-space: nowrap;
-  animation: animatedText 16s linear 0s infinite;
-  perspective: 1000px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
+
 
 footer{
   font-family: sans-serif;
