@@ -137,3 +137,7 @@ footer{
   align-items: center;
   margin: auto; 
 }
+
+footer > span {
+  margin: auto;
+}
