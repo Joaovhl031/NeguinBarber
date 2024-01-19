@@ -71,6 +71,8 @@
   height: 100vh;
   margin: 0;
   background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
 }
 section {
   justify-content: center;
@@ -78,9 +80,10 @@ section {
   color: #6d6a6a;
   width: 524px;
   text-align: justify;
+  margin: auto;
 }
 .content {
-  margin: 0px 0px 0px 40px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
