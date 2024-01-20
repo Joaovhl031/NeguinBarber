@@ -2,7 +2,7 @@
   background-image: url("../assets/about_img.jpeg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100%;
   margin: 0;
   background-attachment: fixed;
 }
