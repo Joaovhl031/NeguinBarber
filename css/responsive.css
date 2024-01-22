@@ -1,4 +1,4 @@
-@media (max-width: 930px) {
+@media (max-width: 688px) {
   .nav__content {
     position: fixed;
     width: 100%;
@@ -96,7 +96,6 @@
     margin-top: 10px;
   }
 
-  
   section {
     width: 100%;
     justify-content: center;
@@ -137,5 +136,19 @@
     margin: -45px -45px -120px -45px;
     max-width: 388px;
   }
+  .funcionamento_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .image__funcionamento {
+    max-width: 100%;
+    min-height: 547px;
+  }
 
+  .funcionamento__description {
+    max-width: 100%;
+  }
+  .content__funcionam{
+    margin: 10px;
+  }
 }
