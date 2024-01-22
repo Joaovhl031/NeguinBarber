@@ -147,8 +147,20 @@
 
   .funcionamento__description {
     max-width: 100%;
+    padding: 15px;
   }
-  .content__funcionam{
-    margin: 10px;
+  .subContent__services {
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .content__right {
+    margin: 35px;
+    margin-bottom: 0;
+  }
+  .content__left {
+    margin: 35px;
+    margin-top: 0;
   }
 }
