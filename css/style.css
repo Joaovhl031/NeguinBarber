@@ -249,7 +249,7 @@ footer > span {
   flex-direction: column;
 }
 .section {
-  width: 358px;
+  max-width: 358px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
