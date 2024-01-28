@@ -3,7 +3,7 @@
     position: fixed;
     width: 100%;
     font-size: 24px;
-    height: 76px;
+    height: 66px;
     background-color: #313030;
     border-bottom: solid 1px white;
   }
@@ -35,16 +35,16 @@
 
   #icon {
     border-top: 3px solid;
-    width: 32px;
+    width: 26px;
     display: block;
   }
   #icon::after,
   #icon::before {
     display: block;
     content: "";
-    width: 32px;
-    height: 4px;
-    margin-top: 13.5px;
+    width: 26px;
+    height: 3px;
+    margin-top: 9.5px;
     background-color: currentColor;
     transition: 0.3s;
     position: relative;
@@ -150,10 +150,12 @@
     padding: 15px;
   }
   .subContent__services {
-    font-size: 19px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
   .content__right {
     margin: 35px;
@@ -163,4 +165,42 @@
     margin: 35px;
     margin-top: 0;
   }
+  .horario{
+    display: flex;
+    flex-direction: column;
+  }
+  .horario__content {
+    width: 100%;
+    display: flex;
+    margin: 40px;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .title__horario h2 {
+    font-size: 32px;
+    margin: 10px;
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
+  
+  .tel__contact{
+    margin: 10px;
+    margin-top: 20px;
+  }
+  
+  .tel__contact p{
+    color: #6d6a6a;
+  }
+  
+  .tel__contact h3 {
+    font-size: 28px;
+  }
+  
+  a{
+    text-decoration: none; 
+    color: #fff; 
+  }
+  
 }

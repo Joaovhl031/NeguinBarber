@@ -47,7 +47,7 @@
 .home__content > div {
   margin: auto;
   color: black;
-  max-width: 480px;
+  max-width: 100%;
   text-align: center;
 }
 .home__content > div > h2 {
@@ -168,55 +168,59 @@ footer > span {
   align-items: center;
 }
 
-.content__funcionam{
+.content__funcionam {
   margin: 0;
+  text-align: center;
 }
 
-.content__funcionam > h2{
+.content__funcionam > h2 {
   font-size: 36px;
   margin: 25px 0 30px 0;
+  text-align: center;
 }
-.content__funcionam > span{
+.content__funcionam > span {
   margin: 15px 0 10px 0;
   color: #6d6a6a;
 }
 
-.card__funcionamento{
-  font-size: 18px;
+.card__funcionamento {
+  font-size: 17px;
   margin-top: 35px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 35px;  
+  padding-bottom: 35px;
   border-bottom: solid 1px #6d6a6a;
 }
 
-.hours{
+.hours {
   color: #9e8462;
 }
-.card__funcionamento_{
-  font-size: 18px;
+.card__funcionamento_ {
+  font-size: 17px;
   margin-top: 35px;
   margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
 }
-.services__conteiner{
+.services__conteiner {
   background-image: url(../assets/price-bg-min.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 647px;
+  height: 100%;
   margin: 0;
 }
-.services__content{
+.services__content {
   display: flex;
+  height: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: 29.6px;
   color: #ffffff;
+
 }
-.services__content h2{
+.services__content h2 {
   padding: 20px;
 }
 
@@ -226,40 +230,37 @@ footer > span {
   padding: 5px;
 }
 
-.subContent__services{
+.subContent__services {
   font-size: 19px;
+  height: 100%;
   display: flex;
-  flex-direction: row;  
-  padding: 20px ;
+  flex-direction: row;
+  padding: 20px;
 }
-.content__right{
+.content__right {
   margin: 35px;
 }
-.content__left{
+.content__left {
   margin: 35px;
 }
 
-.content__card{
+.content__card {
   display: flex;
   flex-direction: column;
 }
-.section{
+.section {
+  width: 358px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.details{
-  margin-right: 60px;
-}
-
-.price{
-  margin-left: 80px;
+.price {
   font-size: 21px;
   color: #9e8462;
 }
 
-.descrip{
+.descrip {
   width: 100%;
   margin: 20px;
   margin-top: 0px;
@@ -268,4 +269,86 @@ footer > span {
   color: #6d6a6a;
   padding-bottom: 26.6px;
   border-bottom: #6d6a6a solid 1px;
+}
+
+.img__horarios {
+  background-image: url(../assets/agende-seu-horari-web.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 447px;
+  margin: 0;
+}
+
+.horario {
+   background-color: #0f0f0f;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.horario__content {
+  width: 443px;
+  display: flex;
+  margin: 40px;
+  margin-left: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title__horario h2 {
+  font-size: 46px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+.tel__contact{
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.tel__contact p{
+  color: #6d6a6a;
+}
+
+.tel__contact h3 {
+  font-size: 28px;
+}
+
+a{
+  text-decoration: none; 
+  color: #fff; 
+}
+
+.content__contact{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+.title-contact h5 {
+  font-size: 78px;
+  margin: 20px;
+  color: #b5b5b5;
+}
+.localization__content{
+  margin: 30px;
+}
+
+.content_fale-conosco h2{
+  font-size: 64px;
+  margin: 20px 4px;
+
+}
+.content_fale-conosco span strong {
+  margin: 20px 4px;
+}
+
+.local {
+  margin: 20px 4px;
+}
+.local p {
+  margin: 10px 0px;
 }
