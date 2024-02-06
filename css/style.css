@@ -8,6 +8,7 @@
 }
 
 .nav__content {
+  position: fixed;
   color: #ffffff;
   display: flex;
   flex-direction: row;
