@@ -2,10 +2,9 @@
   background-image: url("../assets/about_img.jpeg");
   background-size: cover;
   background-position: center;
-  height: 100%;
   width: 100%;
+  height: 100%;
   margin: 0;
-  background-attachment: fixed;
 }
 
 .nav__content {
