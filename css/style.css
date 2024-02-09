@@ -317,6 +317,7 @@ footer > span {
 
 .tel__contact h3 {
   font-size: 28px;
+  margin-top: 4px;
 }
 
 a{
@@ -326,6 +327,7 @@ a{
 
 .content__contact{
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   background-color: #0f0f0f;
   color: #ffffff;
@@ -340,17 +342,23 @@ a{
   margin: 30px;
 }
 
+
+
 .content_fale-conosco h2{
-  font-size: 64px;
+  font-size: 42px;
   margin: 20px 4px;
+  padding-top: 70px;
+  padding-bottom: 30px;
 
 }
 .content_fale-conosco span strong {
   margin: 20px 4px;
+  margin-bottom: 30px;
 }
 
 .local {
   margin: 20px 4px;
+  
 }
 .local p {
   margin: 10px 0px;
