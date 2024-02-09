@@ -3,6 +3,7 @@
   background-size: cover;
   background-position: center;
   height: 100%;
+  width: 100%;
   margin: 0;
   background-attachment: fixed;
 }
@@ -110,8 +111,8 @@ section {
   text-align: center;
 }
 .logo {
-  margin: -45px -45px -120px -45px;
-  max-width: 388px;
+  margin: -40px -40px -120px -40px;
+  max-width: 360px;
 }
 
 footer {

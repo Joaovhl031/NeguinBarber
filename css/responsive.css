@@ -28,6 +28,7 @@
     padding: 0.5rem 1rem;
     font-size: 1rem;
     border: none;
+    margin-right: 5px;
     color: #ffffff;
     background: none;
     gap: 0.5rem;
@@ -134,7 +135,7 @@
   }
   .logo {
     margin: -45px -45px -120px -45px;
-    max-width: 388px;
+    max-width: 374px;
   }
   .funcionamento_content {
     display: flex;
@@ -170,7 +171,7 @@
     flex-direction: column;
   }
   .horario__content {
-    width: 100%;
+    width: 90%;
     display: flex;
     margin: 40px;
     margin-left: 10px;
@@ -181,12 +182,13 @@
   .title__horario h2 {
     font-size: 32px;
     margin: 10px;
+    margin-top: 40px;
     margin-bottom: 40px;
-    max-width: 100%;
+    max-width: 80%;
   }
   
   .tel__contact{
-    margin: 10px;
+    margin: 0px;
     margin-top: 20px;
   }
   
@@ -201,6 +203,9 @@
   a{
     text-decoration: none; 
     color: #fff; 
+  }
+  .title-contact h5{
+    font-size: 38px;
   }
   
 }
