@@ -217,12 +217,13 @@ footer > span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: 29.6px;
   color: #ffffff;
 
 }
 .services__content h2 {
-  padding: 20px;
+  padding-bottom: 18px;
 }
 
 .services__content img {
