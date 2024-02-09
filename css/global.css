@@ -16,3 +16,11 @@ html {
 body{
    width: 100%;
 }
+button {
+   font-family: 'Sora', sans-serif;
+   cursor: pointer;
+}
+a{
+   cursor: pointer;
+   text-decoration: none;
+}

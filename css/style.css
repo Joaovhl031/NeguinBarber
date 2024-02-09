@@ -8,7 +8,7 @@
 }
 
 .nav__content {
-  position: fixed;
+  position: relative;
   color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -217,10 +217,9 @@ footer > span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
   font-size: 29.6px;
   color: #ffffff;
-
 }
 .services__content h2 {
   padding-bottom: 18px;
@@ -284,11 +283,10 @@ footer > span {
 }
 
 .horario {
-   background-color: #0f0f0f;
+  background-color: #0f0f0f;
   color: #ffffff;
   display: flex;
   flex-direction: row;
-
 }
 
 .horario__content {
@@ -303,29 +301,29 @@ footer > span {
 .title__horario h2 {
   font-size: 46px;
   margin: 10px;
-  margin-bottom: 40px;
-}
-
-.tel__contact{
-  margin: 10px;
+  margin-bottom: 10px;
   margin-top: 20px;
 }
 
-.tel__contact p{
+.tel__contact {
+  margin: 10px;
+  margin-top: 0px;
+}
+
+.tel__contact p {
   color: #6d6a6a;
 }
 
 .tel__contact h3 {
   font-size: 28px;
-  margin-top: 4px;
 }
 
-a{
-  text-decoration: none; 
-  color: #fff; 
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.content__contact{
+.content__contact {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -338,18 +336,15 @@ a{
   margin: 20px;
   color: #b5b5b5;
 }
-.localization__content{
+.localization__content {
   margin: 30px;
 }
 
-
-
-.content_fale-conosco h2{
+.content_fale-conosco h2 {
   font-size: 42px;
   margin: 20px 4px;
   padding-top: 70px;
   padding-bottom: 30px;
-
 }
 .content_fale-conosco span strong {
   margin: 20px 4px;
@@ -358,8 +353,18 @@ a{
 
 .local {
   margin: 20px 4px;
-  
 }
 .local p {
   margin: 10px 0px;
+}
+.title__agendamento h2{
+  font-size: 48px;
+  margin: 10px;
+}
+
+.agendamento__link{
+  font-size: large;
+  margin: 10px;
+  margin-top: 0;
+ 
 }
